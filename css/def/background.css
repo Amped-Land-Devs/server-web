@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /*Want to change background image?*/
+  /*Upload a new one to the img folder.*/
+  /*Make sure you name it 'minecraft.jpg'*/
+  background: linear-gradient(rgba(20, 26, 35, 0.55), rgba(20, 26, 35, 0.55)), url("../../img/minecraft.png") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Open Sans", Helvetica;
+  margin: 0;
+  position: relative;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+  padding: 3px;
+}
