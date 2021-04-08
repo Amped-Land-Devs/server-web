@@ -19,7 +19,7 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="css/stylesheet.css">
+	<link rel="stylesheet" href="css/homestyle.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -54,7 +54,7 @@
 			</a>
 
 
-			<a href="více.html" class="item forums">
+			<a href="vice" class="item forums">
 				<div>
 					<img src="img/dynmapa.png" alt="Minecraft forums icon" class="img">
 					<p class="subtitle">Veškeré mapy survivalu</p>
