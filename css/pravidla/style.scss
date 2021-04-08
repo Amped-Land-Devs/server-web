@@ -222,6 +222,10 @@ main {
             outline: none;
             transition: 0.4s;
             border-radius: 5px;
+            i {
+                color: #73a9f2;
+                margin-right: 10px;
+            }
         }
         .active,
         .accordion:hover {
