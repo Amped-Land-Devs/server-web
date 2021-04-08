@@ -232,6 +232,7 @@ main .mainbox h2 {
 main .mainbox h2 i {
   color: #73a9f2;
   margin-right: 10px;
+  transition: 0.25s;
 }
 main .mainbox .active,
 main .mainbox .accordion:hover {
