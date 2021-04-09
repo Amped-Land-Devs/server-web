@@ -1,0 +1,60 @@
+[{
+        "mcname": "Marek_P",
+        "rank": "Majitel, Admin, Disocrd a MC developer a grafik",
+        "socials": [
+            { "name": "discord", "value": "🔥𝕄𝕒𝕣𝕖𝕜_𝕡🔥#4775" }
+        ]
+    },
+    {
+        "mcname": "FireMikee",
+        "rank": "Majitel, Admin, Discord, Web a MC developer",
+        "socials": [
+            { "name": "discord", "value": "FireMikee#6916" }
+        ]
+    },
+    {
+        "mcname": "marekio",
+        "rank": "Asistent/Manager a Vedoucí A-Teamu",
+        "socials": [
+            { "name": "discord", "value": "marekio#4450" },
+            { "name": "email", "value": "kovarik.marek07@gmail.com" }
+        ]
+    },
+    {
+        "mcname": "RhobarIV_KRO",
+        "rank": "Helper a Cheathunter",
+        "socials": [
+            { "name": "discord", "value": "RhobarIV#7747" }
+        ]
+    },
+    {
+        "mcname": "TominoKubino",
+        "rank": "Builder a Web developer",
+        "socials": [
+            { "name": "discord", "value": "TominoKubino#6595" },
+            { "name": "email", "value": "tomas.kubicek@doctrina.cz" },
+            { "name": "github", "value": "Tomion%20Kubino" }
+        ]
+    },
+    {
+        "mcname": "_SadShade_",
+        "rank": "Builder",
+        "socials": [
+            { "name": "discord", "value": "_𝕊𝕙𝕒𝕕𝕖_#3059" }
+        ]
+    },
+    {
+        "mcname": "OnDrak009",
+        "rank": "Builder",
+        "socials": [
+            { "name": "discord", "value": "OnDrak009#2250" }
+        ]
+    },
+    {
+        "mcname": "itzzdeveloper",
+        "rank": "Zk. Builder",
+        "socials": [
+            { "name": "discord", "value": "ItzzDeveloper#7447" }
+        ]
+    }
+]
