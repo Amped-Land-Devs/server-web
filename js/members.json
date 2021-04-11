@@ -1,5 +1,6 @@
 [{
         "mcname": "Marek_P",
+        "mcskin": "img/skins/marek_p.png",
         "rank": "Majitel, Admin, Disocrd a MC developer a grafik",
         "socials": [
             { "name": "discord", "value": "🔥𝕄𝕒𝕣𝕖𝕜_𝕡🔥#4775" }
@@ -7,6 +8,7 @@
     },
     {
         "mcname": "FireMikee",
+        "mcskin": "img/skins/firemikee.png",
         "rank": "Majitel, Admin, Discord, Web a MC developer",
         "socials": [
             { "name": "discord", "value": "FireMikee#6916" }
@@ -14,6 +16,7 @@
     },
     {
         "mcname": "marekio",
+        "mcskin": "img/skins/marekio.png",
         "rank": "Asistent/Manager a Vedoucí A-Teamu",
         "socials": [
             { "name": "discord", "value": "marekio#4450" },
@@ -22,6 +25,7 @@
     },
     {
         "mcname": "RhobarIV_KRO",
+        "mcskin": "img/skins/rhobariv_kro.png",
         "rank": "Helper a Cheathunter",
         "socials": [
             { "name": "discord", "value": "RhobarIV#7747" }
@@ -29,6 +33,7 @@
     },
     {
         "mcname": "TominoKubino",
+        "mcskin": "img/skins/tominokubino.png",
         "rank": "Builder a Web developer",
         "socials": [
             { "name": "discord", "value": "TominoKubino#6595" },
@@ -38,6 +43,7 @@
     },
     {
         "mcname": "_SadShade_",
+        "mcskin": "img/skins/_sadshade_",
         "rank": "Builder",
         "socials": [
             { "name": "discord", "value": "_𝕊𝕙𝕒𝕕𝕖_#3059" }
@@ -45,6 +51,7 @@
     },
     {
         "mcname": "OnDrak009",
+        "mcskin": "img/skins/ondrak009",
         "rank": "Builder",
         "socials": [
             { "name": "discord", "value": "OnDrak009#2250" }
@@ -52,6 +59,7 @@
     },
     {
         "mcname": "itzzdeveloper",
+        "mcskin": "img/skins/itzzdeveloper.png",
         "rank": "Zk. Builder",
         "socials": [
             { "name": "discord", "value": "ItzzDeveloper#7447" }

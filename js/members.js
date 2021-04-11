@@ -1,18 +1,16 @@
 const membersSection = document.querySelector(".members")
-const pathtoimg = "img/skins/";
 console.log("test");
 $.ajax({
     type: "post",
-    url: "js/members.json",
+    url: "webytom.cz/amped-land/members.json",
     success: function(members) {
-        console.log("done");
         members.forEach(member => {
             let memberDiv = document.createElement("div")
             memberDiv.classList.add("member")
 
             let mcskin = document.createElement("img")
             mcskin.classList.add("mcskin")
-            mcskin.setAttribute("src", pathtoimg + member.mcname.toLowerCase() + ".png")
+            mcskin.setAttribute("src", member.mcskin)
             memberDiv.appendChild(mcskin)
 
             let mcname = document.createElement("div")
