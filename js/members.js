@@ -56,10 +56,12 @@ xhttp.onreadystatechange = function() {
             let memberDiv = document.createElement("div")
             memberDiv.classList.add("member")
 
-            let mcskin = document.createElement("img")
-            mcskin.classList.add("mcskin")
-            mcskin.setAttribute("src", member.mcskin)
-            memberDiv.appendChild(mcskin)
+            if (member.mcskin != "") {
+                let mcskin = document.createElement("img")
+                mcskin.classList.add("mcskin")
+                mcskin.setAttribute("src", member.mcskin)
+                memberDiv.appendChild(mcskin)
+            }
 
             let mcname = document.createElement("div")
             mcname.classList.add("mcname")
@@ -71,15 +73,17 @@ xhttp.onreadystatechange = function() {
             rank.innerHTML = member.rank
             memberDiv.appendChild(rank)
 
-            let socials = document.createElement("div")
-            socials.classList.add("socials")
-            member.socials.forEach(social => {
-                let socialSpan = document.createElement("span")
-                socialSpan.classList.add("social")
-                socialSpan.innerHTML = social.name + " -> " + social.value
-                socials.appendChild(socialSpan)
-            });
-            memberDiv.appendChild(socials)
+            if (member.socials != "") {
+                let socials = document.createElement("div")
+                socials.classList.add("socials")
+                member.socials.forEach(social => {
+                    let socialSpan = document.createElement("span")
+                    socialSpan.classList.add("social")
+                    socialSpan.innerHTML = social.name + " -> " + social.value
+                    socials.appendChild(socialSpan)
+                });
+                memberDiv.appendChild(socials)
+            }
 
             membersSection.appendChild(memberDiv)
         });
