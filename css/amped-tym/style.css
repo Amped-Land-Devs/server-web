@@ -1,0 +1,36 @@
+main .mainbox {
+  margin: 5vw;
+  position: absolute;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  width: 90vw;
+  background: #444444;
+  padding: 3vw;
+  color: white;
+}
+main .mainbox .members {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+main .mainbox .members .member {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+main .mainbox .members .member .imgdiv .mcskin {
+  height: 15vw;
+}
+main .mainbox .members .member .textdiv * {
+  margin: 10px 0;
+}
+main .mainbox .members .member .textdiv .mcname {
+  font-size: 28px;
+}
+main .mainbox .members .member .textdiv .rank {
+  font-size: 22px;
+  font-weight: 600;
+}
+main .mainbox .members .member .textdiv .socials span {
+  display: block;
+}

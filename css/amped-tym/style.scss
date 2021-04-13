@@ -1,0 +1,44 @@
+main {
+    .mainbox {
+        margin: 5vw;
+        position: absolute;
+        z-index: 10000;
+        top: 0;
+        left: 0;
+        width: 90vw;
+        background: rgb(68, 68, 68);
+        padding: 3vw;
+        color: white;
+        .members {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            .member {
+                padding: 20px;
+                display: grid;
+                grid-template-columns: 30% 70%;
+                .imgdiv {
+                    .mcskin {
+                        height: 15vw;
+                    }
+                }
+                .textdiv {
+                    * {
+                        margin: 10px 0;
+                    }
+                    .mcname {
+                        font-size: 28px;
+                    }
+                    .rank {
+                        font-size: 22px;
+                        font-weight: 600;
+                    }
+                    .socials {
+                        span {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

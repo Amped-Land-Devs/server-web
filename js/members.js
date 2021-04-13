@@ -57,21 +57,27 @@ xhttp.onreadystatechange = function() {
             memberDiv.classList.add("member")
 
             if (member.mcskin != "") {
+                let imgDiv = document.createElement("div")
+                imgDiv.classList.add("imgdiv")
                 let mcskin = document.createElement("img")
                 mcskin.classList.add("mcskin")
                 mcskin.setAttribute("src", member.mcskin)
-                memberDiv.appendChild(mcskin)
+                imgDiv.appendChild(mcskin)
+                memberDiv.appendChild(imgDiv)
             }
+
+            let textDiv = document.createElement("div")
+            textDiv.classList.add("textdiv")
 
             let mcname = document.createElement("div")
             mcname.classList.add("mcname")
             mcname.innerHTML = member.mcname
-            memberDiv.appendChild(mcname)
+            textDiv.appendChild(mcname)
 
             let rank = document.createElement("div")
             rank.classList.add("rank")
             rank.innerHTML = member.rank
-            memberDiv.appendChild(rank)
+            textDiv.appendChild(rank)
 
             if (member.socials != "") {
                 let socials = document.createElement("div")
@@ -79,12 +85,12 @@ xhttp.onreadystatechange = function() {
                 member.socials.forEach(social => {
                     let socialSpan = document.createElement("span")
                     socialSpan.classList.add("social")
-                    socialSpan.innerHTML = social.name + " -> " + social.value
+                    socialSpan.innerHTML = social.name + ": " + social.value
                     socials.appendChild(socialSpan)
                 });
-                memberDiv.appendChild(socials)
+                textDiv.appendChild(socials)
             }
-
+            memberDiv.appendChild(textDiv)
             membersSection.appendChild(memberDiv)
         });
     }
